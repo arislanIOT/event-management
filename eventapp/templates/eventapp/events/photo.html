@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style>
+  img{ max-width:100%;}
+
+.gallery_box li{ width:33.333333%; max-width: 100% ; display:inline-block; float: left; text-align: center; overflow: hidden;    position: relative;}
+.gallery_box{ padding:0;display: flow-root;}
+
+.gallery_box li:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gallery_box li img{-webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;}
+.gallery_box li:nth-child(even) {
+    height: 304px;
+}
+.gallery_box li:nth-child(odd) {
+    height: 438px; 
+}
+.gallery_box li:nth-child(odd) .box_data{ background:rgba(0,0,0,0.17) }
+.gallery_box li:nth-child(even) .box_data{ background:rgba(0,44,255,0.27) }
+.gallery_box .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:#fff;}
+.gallery_box .box_data span{ position:absolute; top: 50%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.gallery_box li:hover .box_data{ background:rgba(255,0,39,0.55)} 
+</style>
+</head>
+<body>
+    <center> <h1> Complete Wedding Planning Services</h1></center>
+<ul class="gallery_box">
+	<li>
+		<a href="#0"><img src="https://images.pexels.com/photos/2058070/pexels-photo-2058070.jpeg?cs=srgb&dl=pexels-sadman-chowdhury-2058070.jpg&fm=jpg">
+		<div class="box_data">
+			<span>Wedding Photography</span>
+		</div></a>
+	</li>
+		<li>
+		<a href="#0"><img src="https://images.pexels.com/photos/2286400/pexels-photo-2286400.jpeg?cs=srgb&dl=pexels-muneeb-zaidi-2286400.jpg&fm=jpg">
+		<div class="box_data">
+			<span>Henna Artist</span>
+		</div></a>
+	</li>
+		<li>
+		<a href="#0"><img src="https://images.pexels.com/photos/169196/pexels-photo-169196.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-169196.jpg&fm=jpg">
+		<div class="box_data">
+			<span>Beach Wedding</span>
+		</div></a>
+	</li>
+			<li>
+		<a href="#0"><img src="https://images.pexels.com/photos/2106673/pexels-photo-2106673.jpeg?cs=srgb&dl=pexels-farddin-protik-2106673.jpg&fm=jpg">
+		<div class="box_data">
+			<span>Wedding Videography</span>
+		</div></a>
+	</li>
+			<li style="    position: relative;
+            top: -134px;">
+            
+		<a href="#0"><img src="https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?cs=srgb&dl=pexels-mat-brown-1395967.jpg&fm=jpg">
+		<div class="box_data">
+			<span>Catering Service</span>
+		</div></a>
+	</li>
+			<li>
+		<a href="#0"><img src="https://images.pexels.com/photos/11690470/pexels-photo-11690470.jpeg?cs=srgb&dl=pexels-𝖆𝖒𝖆𝖓-𝖆𝖏𝖎𝖒𝖆𝖑-𝕱𝖆𝖘𝖍𝖎𝖔𝖓-𝕾𝖙𝖞𝖑𝖎𝖘𝖙-11690470.jpg&fm=jpg">
+		<div class="box_data">
+			<span>Indian Wedding Dress</span>
+		</div></a>
+	</li>
+	
+</ul>
+</body>
+</html>
